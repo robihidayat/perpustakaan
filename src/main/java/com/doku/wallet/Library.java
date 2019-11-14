@@ -24,7 +24,7 @@ public class Library {
     }
 
     public void memberPinjam(){
-        member.stream().map(Member::getName).forEach(System.out::println);
+        member.stream().filter(Member::isPinjam).map(Member::getName).forEach(System.out::println);
     }
 
 

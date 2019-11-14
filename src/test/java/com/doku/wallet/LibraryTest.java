@@ -17,12 +17,6 @@ public class LibraryTest {
     @Test
     void test(){
 
-        Member member = new Member();
-        member.setName("Robi");
-        member.setMedias(memberCollection());
-        member.setNumber(1);
-        member.setPinjam(true);
-
         Shelf<Medias> rak = new Shelf<>();
         rak.setMedias(setMedia());
 
